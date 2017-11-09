@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browserName" value="firefox"/>
+  <test name="Test(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="TestScenarios.Universetest">
+        <methods>
+          <include name="endTestCase"/>
+          <include name="startbrowser"/>
+          <include name="universeModuleLandingPage"/>
+        </methods>
+      </class> <!-- TestScenarios.Universetest -->
+      <class name="TestScenarios.DraupSigInTest">
+        <methods>
+          <include name="endTestCase"/>
+          <include name="startbrowser"/>
+        </methods>
+      </class> <!-- TestScenarios.DraupSigInTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
