@@ -49,6 +49,7 @@ public class WebBaseClass {
 
 		@Parameters("browserName")
 		@BeforeClass
+		//@BeforeSuite
 		public void startbrowser(String browserName) throws IOException {
 			System.out.println("Browser name is " + browserName);
 		
@@ -56,6 +57,7 @@ public class WebBaseClass {
 			driver=factory.getBrowser(browserName);
            
            PO=new DraupSignInPageObjects(driver,test);
+           Universe=new UniversePageObjects(driver, test);
            
            exceldata=new ReadExcelData("./TestData/Locators.xlsx") ;
            
@@ -113,27 +115,29 @@ public class WebBaseClass {
 			}
 			
 					
-			/*@AfterSuite
+			@AfterSuite
 			public void tearDown() throws Throwable {
 			
 				String file=utility.ExtentManager.ReportName;
 				System.out.println(file);
 			
 				
-				String filepath="\AdvanceReports/";
-			//rep.close();
-		//	driver.get(reportPath);
-		//	Thread.sleep(5000);
+				String reportPath="./AdvanceReports";
+				
+				
+			rep.close();
+			//driver.get(reportPath);
+			Thread.sleep(5000);
 		//	driver.close();
 			//driver.get(file);
 				
-				System.out.println(filepath+file);
+				//System.out.println(filepath+file);
 				
-				driver.get(filepath+file);
+				//driver.get(filepath+file);
 				
 			Thread.sleep(10000);
-		//	driver.quit();
-		   // System.out.println("Report is generated >>>> Browser is closed >>>>"+reportPath);
+			driver.quit();
+		   System.out.println("Report is generated >>>> Browser is closed >>>>"+reportPath);
 			
 			
 					
@@ -141,7 +145,7 @@ public class WebBaseClass {
 			}
 			
 			
-			*/
+			
 
 	}
 

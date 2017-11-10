@@ -35,11 +35,7 @@ public class UniversePageObjects{
 	 */
 	public void UniverseLandingPage() throws IOException, InterruptedException {
 		
-		System.out.println(help.readConfigFile("WebURL", "frameworkConfig"));
-		driver.get(help.readConfigFile("WebURL", "frameworkConfig"));
-		log.info("open url");
-		
-		 help.Buttonclick(help.readObjectLocator("ClickOnUniverseLink"));
+		help.Buttonclick(help.readObjectLocator("ClickOnUniverseLink"));
 		 log.info("clicked on universe link");
 		
 		

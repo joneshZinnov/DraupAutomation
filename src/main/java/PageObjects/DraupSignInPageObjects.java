@@ -31,9 +31,9 @@ public class DraupSignInPageObjects {
     
 	public void OpenDraup() throws IOException {
 
-		System.out.println(help.readConfigFile("WebURL", "frameworkConfig"));
+		//System.out.println(help.readConfigFile("WebURL", "frameworkConfig"));
 		driver.get(help.readConfigFile("WebURL", "frameworkConfig"));
-		log.info("open url");
+		//log.info("open url");
 
 	}
 
@@ -49,15 +49,12 @@ public class DraupSignInPageObjects {
 	    help.Buttonclick(help.readObjectLocator("Signin"));
 	    log.info("click on signin button");
 	    
-	  //help.waitForPageLoad();
-	
-		Thread.sleep(2000);
-		 help.Buttonclick(help.readObjectLocator("ClickOnContender"));
+	     help.waitForPageLoad();
+	     help.Buttonclick(help.readObjectLocator("ClickOnContender"));
 		 log.info("clicked on contender");
-		 
-		// help.Buttonclick(help.readObjectLocator("ClickOnUniverseLink"));
-		// log.info("clicked on universe link");
-		
+	}
+	
+	
 	}
 	
 	
@@ -184,4 +181,4 @@ public class DraupSignInPageObjects {
 
 	}
 */
-}
+

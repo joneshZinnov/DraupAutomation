@@ -25,7 +25,7 @@ public class ReadExcelData {
 			src = new File(Filename);
 			fis = new FileInputStream(src);
 			wb = new XSSFWorkbook(fis);
-			System.out.println("Excel is loaded");
+			//System.out.println("Excel is loaded");
 		} catch (FileNotFoundException e) {
 			System.out.println("File not located");
 			System.out.println(e.getMessage());
@@ -122,8 +122,8 @@ public class ReadExcelData {
 		int Totalrows = getRowCount(sheetName);
 		int Totalcols = getColCount(sheetName);
 
-		System.out.println(Totalrows);
-		System.out.println(Totalcols);
+		//System.out.println(Totalrows);
+		//System.out.println(Totalcols);
 
 		Object[][] Locator = new Object[Totalrows - 1][Totalcols];
 

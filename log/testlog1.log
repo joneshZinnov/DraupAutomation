@@ -905,3 +905,74 @@
 2017-11-09 11:32:19,666 [main] INFO SigInPage - click on signin button
 2017-11-09 11:32:22,595 [main] INFO SigInPage - clicked on contender
 2017-11-09 11:32:26,228 [main] INFO utility.Log - Test case universe module started
+2017-11-09 15:29:52,009 [main] INFO utility.Log - Test case started
+2017-11-09 15:29:54,671 [main] INFO SigInPage - open url
+2017-11-09 15:29:55,222 [main] INFO SigInPage - enter username admin
+2017-11-09 15:29:55,290 [main] INFO SigInPage - enter password sahaj123
+2017-11-09 15:30:07,900 [main] INFO SigInPage - click on signin button
+2017-11-09 15:30:10,108 [main] INFO SigInPage - clicked on contender
+2017-11-09 15:30:11,974 [main] INFO utility.Log - Test case universe module started
+2017-11-09 15:54:12,009 [main] INFO utility.Log - Test case started
+2017-11-09 15:54:15,882 [main] INFO SigInPage - open url
+2017-11-09 15:54:17,711 [main] INFO SigInPage - enter username admin
+2017-11-09 15:54:17,795 [main] INFO SigInPage - enter password sahaj123
+2017-11-09 15:54:34,058 [main] INFO SigInPage - click on signin button
+2017-11-09 15:54:35,009 [main] INFO SigInPage - clicked on contender
+2017-11-09 15:54:41,966 [main] INFO utility.Log - Test case universe module started
+2017-11-09 16:01:05,672 [main] INFO utility.Log - Test case started
+2017-11-09 16:01:07,724 [main] INFO SigInPage - open url
+2017-11-09 16:01:09,783 [main] INFO SigInPage - enter username admin
+2017-11-09 16:01:09,849 [main] INFO SigInPage - enter password sahaj123
+2017-11-09 16:01:24,641 [main] INFO SigInPage - click on signin button
+2017-11-09 16:01:25,237 [main] INFO SigInPage - clicked on contender
+2017-11-09 16:01:27,626 [main] INFO SigInPage - clicked on universe link
+2017-11-10 11:57:49,487 [main] INFO utility.Log - Test case started
+2017-11-10 11:57:51,831 [main] INFO SigInPage - open url
+2017-11-10 11:57:52,303 [main] INFO SigInPage - enter username admin
+2017-11-10 11:57:52,367 [main] INFO SigInPage - enter password sahaj123
+2017-11-10 11:57:58,238 [main] INFO SigInPage - click on signin button
+2017-11-10 11:58:03,210 [main] INFO SigInPage - clicked on contender
+2017-11-10 11:58:04,956 [main] INFO utility.Log - Test case universe module started
+2017-11-10 11:58:05,459 [main] INFO UniversePage - clicked on universe link
+2017-11-10 12:00:55,743 [main] INFO utility.Log - Test case started
+2017-11-10 12:00:57,610 [main] INFO SigInPage - open url
+2017-11-10 12:00:59,428 [main] INFO SigInPage - enter username admin
+2017-11-10 12:00:59,541 [main] INFO SigInPage - enter password sahaj123
+2017-11-10 12:01:04,703 [main] INFO SigInPage - click on signin button
+2017-11-10 12:06:10,688 [main] INFO utility.Log - Test case started
+2017-11-10 12:06:13,226 [main] INFO SigInPage - open url
+2017-11-10 12:06:15,032 [main] INFO SigInPage - enter username admin
+2017-11-10 12:06:15,161 [main] INFO SigInPage - enter password sahaj123
+2017-11-10 12:06:21,185 [main] INFO SigInPage - click on signin button
+2017-11-10 12:06:26,533 [main] INFO SigInPage - clicked on contender
+2017-11-10 12:08:33,635 [main] INFO utility.Log - Test case started
+2017-11-10 12:08:36,068 [main] INFO SigInPage - open url
+2017-11-10 12:08:37,897 [main] INFO SigInPage - enter username admin
+2017-11-10 12:08:37,955 [main] INFO SigInPage - enter password sahaj123
+2017-11-10 12:08:45,264 [main] INFO SigInPage - click on signin button
+2017-11-10 12:08:49,799 [main] INFO SigInPage - clicked on contender
+2017-11-10 12:08:51,556 [main] INFO utility.Log - Test case universe module started
+2017-11-10 12:08:51,759 [main] INFO UniversePage - clicked on universe link
+2017-11-10 13:03:09,061 [main] INFO utility.Log - Test case started
+2017-11-10 13:03:11,487 [main] INFO SigInPage - open url
+2017-11-10 13:03:13,175 [main] INFO SigInPage - enter username admin
+2017-11-10 13:03:13,236 [main] INFO SigInPage - enter password sahaj123
+2017-11-10 13:03:21,580 [main] INFO SigInPage - click on signin button
+2017-11-10 13:03:25,120 [main] INFO SigInPage - clicked on contender
+2017-11-10 13:03:26,680 [main] INFO utility.Log - Test case universe module started
+2017-11-10 13:03:26,885 [main] INFO UniversePage - clicked on universe link
+2017-11-10 13:23:50,846 [main] INFO utility.Log - Test case started
+2017-11-10 13:23:52,701 [main] INFO SigInPage - open url
+2017-11-10 13:23:54,454 [main] INFO SigInPage - enter username admin
+2017-11-10 13:23:54,519 [main] INFO SigInPage - enter password sahaj123
+2017-11-10 13:24:04,093 [main] INFO SigInPage - click on signin button
+2017-11-10 13:24:04,557 [main] INFO SigInPage - clicked on contender
+2017-11-10 13:24:06,065 [main] INFO utility.Log - Test case universe module started
+2017-11-10 13:24:06,256 [main] INFO UniversePage - clicked on universe link
+2017-11-10 13:44:58,995 [main] INFO utility.Log - Test case started
+2017-11-10 13:45:02,921 [main] INFO SigInPage - enter username admin
+2017-11-10 13:45:02,981 [main] INFO SigInPage - enter password sahaj123
+2017-11-10 13:45:12,837 [main] INFO SigInPage - click on signin button
+2017-11-10 13:45:13,320 [main] INFO SigInPage - clicked on contender
+2017-11-10 13:45:14,824 [main] INFO utility.Log - Test case universe module started
+2017-11-10 13:45:15,011 [main] INFO UniversePage - clicked on universe link

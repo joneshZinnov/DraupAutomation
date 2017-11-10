@@ -21,19 +21,18 @@ public class DraupSigInTest extends WebBaseClass {
 
 		Log.info("Test case started");
 
-		test.log(LogStatus.INFO, "Started the Login test with valid data");
-
 		PO.OpenDraup();
+		
+		test.log(LogStatus.INFO, "Started the signin test with valid data");
 
-		test.log(LogStatus.INFO, "Opened the vtiger demo website");
+		test.log(LogStatus.INFO, "Opened the draup website");
 	}
 	
 	@Test(priority = 1)
 	public void signIn() throws IOException, InterruptedException {
 		
 		PO.EnterValidLoginDetails();
-		//Universe.UniverseLandingPage();
-
+		
 		test.log(LogStatus.INFO, "Enetered the Valid Login details ");
 
 		test.log(LogStatus.INFO, "Login with valid is suceesful ");
@@ -44,6 +43,37 @@ public class DraupSigInTest extends WebBaseClass {
 
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
