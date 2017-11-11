@@ -976,3 +976,31 @@
 2017-11-10 13:45:13,320 [main] INFO SigInPage - clicked on contender
 2017-11-10 13:45:14,824 [main] INFO utility.Log - Test case universe module started
 2017-11-10 13:45:15,011 [main] INFO UniversePage - clicked on universe link
+2017-11-10 14:43:39,797 [main] INFO utility.Log - Test case started
+2017-11-10 14:43:44,214 [main] INFO SigInPage - enter username admin
+2017-11-10 14:43:44,337 [main] INFO SigInPage - enter password sahaj123
+2017-11-10 14:43:49,006 [main] INFO SigInPage - click on signin button
+2017-11-10 14:43:54,381 [main] INFO SigInPage - clicked on contender
+2017-11-10 14:43:56,000 [main] INFO utility.Log - Test case universe module started
+2017-11-10 14:43:56,172 [main] INFO UniversePage - clicked on universe link
+2017-11-10 14:47:29,616 [main] INFO utility.Log - Test case started
+2017-11-10 14:47:33,874 [main] INFO SigInPage - enter username admin
+2017-11-10 14:47:33,943 [main] INFO SigInPage - enter password sahaj123
+2017-11-10 14:47:45,119 [main] INFO SigInPage - click on signin button
+2017-11-10 14:47:45,736 [main] INFO SigInPage - clicked on contender
+2017-11-10 14:47:47,687 [main] INFO utility.Log - Test case universe module started
+2017-11-10 14:47:47,883 [main] INFO UniversePage - clicked on universe link
+2017-11-10 14:49:24,132 [main] INFO utility.Log - Test case started
+2017-11-10 14:49:28,431 [main] INFO SigInPage - enter username admin
+2017-11-10 14:49:28,496 [main] INFO SigInPage - enter password sahaj123
+2017-11-10 14:49:34,209 [main] INFO SigInPage - click on signin button
+2017-11-10 14:49:34,716 [main] INFO SigInPage - clicked on contender
+2017-11-10 14:49:35,907 [main] INFO utility.Log - Test case universe module started
+2017-11-10 14:49:36,019 [main] INFO UniversePage - clicked on universe link
+2017-11-10 14:56:32,064 [main] INFO utility.Log - Test case started
+2017-11-10 14:56:36,350 [main] INFO SigInPage - enter username admin
+2017-11-10 14:56:36,429 [main] INFO SigInPage - enter password sahaj123
+2017-11-10 14:56:41,929 [main] INFO SigInPage - click on signin button
+2017-11-10 14:56:46,610 [main] INFO SigInPage - clicked on contender
+2017-11-10 14:56:48,223 [main] INFO utility.Log - Test case universe module started
+2017-11-10 14:56:48,406 [main] INFO UniversePage - clicked on universe link

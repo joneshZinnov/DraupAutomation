@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21365" started-at="2017-11-10T08:14:53Z" finished-at="2017-11-10T08:15:15Z">
+  <suite name="Suite" duration-ms="25763" started-at="2017-11-10T09:26:26Z" finished-at="2017-11-10T09:26:52Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="21365" started-at="2017-11-10T08:14:53Z" finished-at="2017-11-10T08:15:15Z">
+    <test name="Test" duration-ms="25763" started-at="2017-11-10T09:26:26Z" finished-at="2017-11-10T09:26:52Z">
       <class name="TestScenarios.Universetest">
-        <test-method status="PASS" signature="startbrowser(java.lang.String)[pri:0, instance:TestScenarios.Universetest@2a32de6c]" name="startbrowser" is-config="true" duration-ms="1451" started-at="2017-11-10T13:45:13Z" finished-at="2017-11-10T13:45:14Z">
+        <test-method status="PASS" signature="startbrowser(java.lang.String)[pri:0, instance:TestScenarios.Universetest@2a32de6c]" name="startbrowser" is-config="true" duration-ms="1540" started-at="2017-11-10T14:56:46Z" finished-at="2017-11-10T14:56:48Z">
           <params>
             <param index="0">
               <value>
@@ -18,28 +18,68 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startbrowser -->
-        <test-method status="PASS" signature="universeModuleLandingPage()[pri:0, instance:TestScenarios.Universetest@2a32de6c]" name="universeModuleLandingPage" duration-ms="190" started-at="2017-11-10T13:45:14Z" finished-at="2017-11-10T13:45:15Z">
+        <test-method status="FAIL" signature="universeModuleLandingPage()[pri:0, instance:TestScenarios.Universetest@2a32de6c]" name="universeModuleLandingPage" duration-ms="220" started-at="2017-11-10T14:56:48Z" finished-at="2017-11-10T14:56:48Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Account] but found [ACCOUNT]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Account] but found [ACCOUNT]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at PageObjects.UniversePageObjects.verifyInOpportunity_Table_AccountHeader(UniversePageObjects.java:59)
+	at TestScenarios.Universetest.universeModuleLandingPage(Universetest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- universeModuleLandingPage -->
-        <test-method status="PASS" signature="endTestCase(org.testng.ITestResult)[pri:0, instance:TestScenarios.Universetest@2a32de6c]" name="endTestCase" is-config="true" duration-ms="29" started-at="2017-11-10T13:45:15Z" finished-at="2017-11-10T13:45:15Z">
+        <test-method status="PASS" signature="endTestCase(org.testng.ITestResult)[pri:0, instance:TestScenarios.Universetest@2a32de6c]" name="endTestCase" is-config="true" duration-ms="4302" started-at="2017-11-10T14:56:48Z" finished-at="2017-11-10T14:56:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=universeModuleLandingPage status=SUCCESS method=Universetest.universeModuleLandingPage()[pri:0, instance:TestScenarios.Universetest@2a32de6c] output={null}]]]>
+                <![CDATA[[TestResult name=universeModuleLandingPage status=FAILURE method=Universetest.universeModuleLandingPage()[pri:0, instance:TestScenarios.Universetest@2a32de6c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestCase -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestScenarios.Universetest@2a32de6c]" name="tearDown" is-config="true" duration-ms="15963" started-at="2017-11-10T13:45:15Z" finished-at="2017-11-10T13:45:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestScenarios.Universetest@2a32de6c]" name="tearDown" is-config="true" duration-ms="16137" started-at="2017-11-10T14:56:52Z" finished-at="2017-11-10T14:57:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestScenarios.Universetest -->
       <class name="TestScenarios.DraupSigInTest">
-        <test-method status="PASS" signature="startbrowser(java.lang.String)[pri:0, instance:TestScenarios.DraupSigInTest@78e94dcf]" name="startbrowser" is-config="true" duration-ms="5291" started-at="2017-11-10T13:44:53Z" finished-at="2017-11-10T13:44:58Z">
+        <test-method status="PASS" signature="startbrowser(java.lang.String)[pri:0, instance:TestScenarios.DraupSigInTest@78e94dcf]" name="startbrowser" is-config="true" duration-ms="5061" started-at="2017-11-10T14:56:26Z" finished-at="2017-11-10T14:56:32Z">
           <params>
             <param index="0">
               <value>
@@ -50,11 +90,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startbrowser -->
-        <test-method status="PASS" signature="openDraupApplication()[pri:0, instance:TestScenarios.DraupSigInTest@78e94dcf]" name="openDraupApplication" duration-ms="2262" started-at="2017-11-10T13:44:58Z" finished-at="2017-11-10T13:45:01Z">
+        <test-method status="PASS" signature="openDraupApplication()[pri:0, instance:TestScenarios.DraupSigInTest@78e94dcf]" name="openDraupApplication" duration-ms="2325" started-at="2017-11-10T14:56:32Z" finished-at="2017-11-10T14:56:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openDraupApplication -->
-        <test-method status="PASS" signature="endTestCase(org.testng.ITestResult)[pri:0, instance:TestScenarios.DraupSigInTest@78e94dcf]" name="endTestCase" is-config="true" duration-ms="299" started-at="2017-11-10T13:45:01Z" finished-at="2017-11-10T13:45:01Z">
+        <test-method status="PASS" signature="endTestCase(org.testng.ITestResult)[pri:0, instance:TestScenarios.DraupSigInTest@78e94dcf]" name="endTestCase" is-config="true" duration-ms="263" started-at="2017-11-10T14:56:34Z" finished-at="2017-11-10T14:56:34Z">
           <params>
             <param index="0">
               <value>
@@ -65,11 +105,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestCase -->
-        <test-method status="PASS" signature="signIn()[pri:0, instance:TestScenarios.DraupSigInTest@78e94dcf]" name="signIn" duration-ms="11777" started-at="2017-11-10T13:45:01Z" finished-at="2017-11-10T13:45:13Z">
+        <test-method status="PASS" signature="signIn()[pri:0, instance:TestScenarios.DraupSigInTest@78e94dcf]" name="signIn" duration-ms="11967" started-at="2017-11-10T14:56:34Z" finished-at="2017-11-10T14:56:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method status="PASS" signature="endTestCase(org.testng.ITestResult)[pri:0, instance:TestScenarios.DraupSigInTest@78e94dcf]" name="endTestCase" is-config="true" duration-ms="48" started-at="2017-11-10T13:45:13Z" finished-at="2017-11-10T13:45:13Z">
+        <test-method status="PASS" signature="endTestCase(org.testng.ITestResult)[pri:0, instance:TestScenarios.DraupSigInTest@78e94dcf]" name="endTestCase" is-config="true" duration-ms="64" started-at="2017-11-10T14:56:46Z" finished-at="2017-11-10T14:56:46Z">
           <params>
             <param index="0">
               <value>

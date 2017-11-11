@@ -7,13 +7,16 @@
     <classes>
       <class name="TestScenarios.Universetest">
         <methods>
+          <include name="endTestCase"/>
+          <include name="startbrowser"/>
           <include name="universeModuleLandingPage"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- TestScenarios.Universetest -->
       <class name="TestScenarios.DraupSigInTest">
         <methods>
-          <include name="signIn"/>
-          <include name="openDraupApplication"/>
+          <include name="endTestCase"/>
+          <include name="startbrowser"/>
         </methods>
       </class> <!-- TestScenarios.DraupSigInTest -->
     </classes>

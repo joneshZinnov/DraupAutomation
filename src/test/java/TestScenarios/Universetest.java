@@ -17,7 +17,10 @@ Logger log = Logger.getLogger("Universe");
 
 		Log.info("Test case universe module started");
 
-		Universe.UniverseLandingPage();
+		Universe.ClickOnUniverseLinkOnLandingPage();
+		
+		Universe.verifyInOpportunity_Table_AccountHeader();
+		test.log(LogStatus.PASS,"Accout text verified successfully");
 		
 		test.log(LogStatus.INFO, "click on universe tab");
 	//  <class name="TestScenarios.Universetest"/>
